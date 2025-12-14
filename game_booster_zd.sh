@@ -549,23 +549,22 @@ echo -ne "\e[92mENTER NUMBER: \e[0m"
 read game
 
 case $game in
-    1)
-        echo -e "\e[92mOpening PUBG Mobile...\e[0m"
-        am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-        ;;
-     
-    2)
-        echo -e "\e[92mOpening Free Fire... \e[0m"
-        am start -n com.dts.freefireth/com.dts.freefireth.FFMainActivity
-        ;;
-    
-    3)
-        echo -e "\e[92mOpening Call of Duty Mobile...\e[0m"
-        am start -n com.activision.callofduty.shooter/com.unity3d.player.UnityPlayerActivity
-        ;;
-    *)
-        echo -e "\e[91mInvalid option!\e[0m"
-        ;;
+1)
+  echo -e "\e[92mOpening PUBG Mobile...\e[0m"
+  am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
+;;
+2)
+  echo -e "\e[92mOpening Call of Duty Mobile...\e[0m"
+  am start -n com.activision.callofduty.shooter/com.unity3d.player.UnityPlayerActivity
+;;
+3)
+  echo -e "\e[92mOpening Free Fire...\e[0m"
+  am start -n com.dts.freefireth/com.dts.freefireth.FFMainActivity
+;;
+*)
+  echo -e "\e[91mInvalid option!\e[0m"
+;;
 esac
+
 
 exit
