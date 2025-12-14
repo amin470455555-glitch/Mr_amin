@@ -116,20 +116,20 @@ echo "╚═══════════════════════�
 sleep 2
 
 # سوالات انتخاب
-echo -e "\e[0m"
-echo
-echo -e "\e[92m➤ Please select the game you want to optimize for:\e[0m"
+echo -e "\033[92m➤ Please select the game you want to optimize for:\033[0m"
 sleep 1
 
-echo -e "\e[94m[ 1 ] PUBG\e[0m"
+echo -e "\033[94m[ 1 ] PUBG\033[0m"
 sleep 0.5
-echo -e "\e[94m[ 2 ] Call of Duty Mobile\e[0m"
+echo -e "\033[94m[ 2 ] Call of Duty Mobile\033[0m"
 sleep 0.5
-echo -e "\e[94m[ 3 ] Free Fire\e[0m"
+echo -e "\033[94m[ 3 ] Free Fire\033[0m"
 sleep 0.5
+echo
 
-echo -ne "\e[92m➤ ENTER NUMBER = \e[0m"
+echo -ne "\033[92m➤ ENTER NUMBER = \033[0m"
 read game_choice
+
 
 
 
