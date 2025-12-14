@@ -116,7 +116,7 @@ echo "╚═══════════════════════�
 sleep 2
 
 # سوالات انتخاب
-echo -e "\e[92m➤ Please select the game you want to optimize for:\e[0m"
+echo -e "\e[92m> Please select the game you want to optimize for:\e[0m"
 sleep 1
 
 echo -e "\e[94m[ 1 ] PUBG\e[0m"
@@ -126,7 +126,8 @@ sleep 0.5
 echo -e "\e[94m[ 3 ] Free Fire\e[0m"
 sleep 0.5
 
-echo -n -e "\e[0m➤ ENTER NUMBER  = "
+echo -n -e "\e[0m> ENTER NUMBER = "
+read game_choice
 
 # عملیات بعد از انتخاب گیم
 if [ "$game_choice" -eq 1 ]; then
