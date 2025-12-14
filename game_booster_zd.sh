@@ -125,9 +125,9 @@ echo -e "\e[94m" "[ 2 ] Call of Duty Mobile"
 sleep 0.5
 echo -e "\e[94m" "[ 3 ] Free Fire"
 sleep 0.5
-echo 
-echo -n -e "\e[0m" "➤ ENTER NUMBER  = "
 read game_choice
+echo -n -e "\e[0m" "➤ ENTER NUMBER  = "
+
 
 
 # عملیات بعد از انتخاب گیم
