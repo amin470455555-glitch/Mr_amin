@@ -504,6 +504,7 @@ echo "--------------------------------------"
 echo -e "\e[94m"
 echo "[1] PUBG Mobile"
 echo "[2] Call of Duty Mobile"
+echo "[3] Free Fire"
 echo
 # گرادیان سبز → لیمویی برای هدر ONLINE
 green1='\e[38;5;40m'
