@@ -118,7 +118,7 @@ sleep 2
 # سوالات انتخاب
 # سوالات انتخاب
 echo -e "\e[92m" "➤ Please select the game you want to optimize for:"
-sleep 1.s
+sleep 1
 
 echo -e "\e[94m" "[ 1 ] PUBG"
 sleep 0.5
